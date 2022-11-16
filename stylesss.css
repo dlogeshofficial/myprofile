@@ -1,0 +1,76 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: black;
+    font-family: 'Poppins',sans-serif;
+}
+
+.flexOne{
+    flex:1;
+}
+
+.flexTwo{
+    flex:2;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    max-width: 40vw;
+    display: flex;
+    margin:0 auto;
+    padding:2rem;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+
+.myDetailsContainer{
+    display: flex;
+}
+
+.profilePic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.experienceContainer{
+    margin-left: 2rem;
+}
+
+.descriptionContainer{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.leftContainer{
+    margin-left: 1rem;
+}
+
+.divider{
+    border:1px solid black;
+    width:100%
+}
+
+h1,
+h3,
+h5,
+h4 {
+    line-height: 0.4;
+}
+
+
+li,
+p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.highlight {
+    color: #05a794;
+    font-weight: 900;
+}
