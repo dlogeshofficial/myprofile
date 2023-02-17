@@ -18,21 +18,21 @@ body{
     justify-content: center;
     align-items: center;
 }
-.menu{
+/* .menu{
     float:left;
     width:20%;
-}
+} */
 .mainContainer{
     max-width: 40vw;
-    width: 60%;
-    float:left;
+/*     width: 60%; */
+/*     float:left; */
     display: flex;
     margin:0 auto;
     padding:0 20px;
     background-color: rgb(255, 255, 255);
     flex-direction: column;
 }
-@media only screen and (max-width:880px) {
+/* @media only screen and (max-width:880px) {
     .mainContainer{
         width:80%;
         padding:0;
@@ -46,7 +46,7 @@ body{
         width: 100%;
     }
    
-}
+} */
     
 
 .myDetailsContainer{
