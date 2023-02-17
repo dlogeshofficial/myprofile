@@ -18,15 +18,36 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+.menu{
+    float:left;
+    width:20%;
+}
 .mainContainer{
     max-width: 40vw;
+    width: 60%;
+    float:left;
     display: flex;
     margin:0 auto;
-    padding:2rem;
+    padding:0 20px;
     background-color: rgb(255, 255, 255);
     flex-direction: column;
 }
+@media only screen and (max-width:880px) {
+    .mainContainer{
+        width:80%;
+        padding:0;
+    }
+    .right {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:500px) {
+    .menu,.mainContainer,.right{
+        width: 100%;
+    }
+   
+}
+    
 
 .myDetailsContainer{
     display: flex;
