@@ -2,7 +2,7 @@ body{
     padding:0px;
     margin:0px;
     background-color: black;
-    font-family: 'Poppins',sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .flexOne{
@@ -18,36 +18,33 @@ body{
     justify-content: center;
     align-items: center;
 }
-/* .menu{
-    float:left;
-    width:20%;
-} */
+
 .mainContainer{
     max-width: 40vw;
-/*     width: 60%; */
-/*     float:left; */
     display: flex;
     margin:0 auto;
-    padding:0 20px;
+    padding:0 15px;
     background-color: rgb(255, 255, 255);
     flex-direction: column;
 }
-/* @media only screen and (max-width:880px) {
+@media only screen and (max-device-width:880px) {
     .mainContainer{
-        width:80%;
-        padding:0;
+        width:40vw;
+        padding:0 20px;
     }
     .right {
         width: 100%;
     }
+    .myDetailsContainer{
+        width: auto;
+    }
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-device-width:500px) {
     .menu,.mainContainer,.right{
         width: 100%;
     }
    
-} */
-    
+}
 
 .myDetailsContainer{
     display: flex;
@@ -81,14 +78,23 @@ h1,
 h3,
 h5,
 h4 {
-    line-height: 0.4;
+    font-weight: bold;
+    line-height: 0.8;
+}
+h3 ,h5{
+    line-height: 0.5;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
 }
 
-
-li,
+li{
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;  
+}
 p {
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
 }
 
 .highlight {
